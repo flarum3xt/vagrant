@@ -8,7 +8,7 @@ my = {
   :cf_private_ip            => "10.10.10.10"       ,
   :cf_private_key_path      => "~/.ssh/id_rsa"     ,
   :cf_public_key_path       => "~/.ssh/id_rsa.pub" ,
-  :cf_app_source_path       => "../app"                 ,
+  :cf_app_source_path       => "../app"            ,
 
   # configuration for nginx or httpd service
   :cf_http_port             => 80                  ,
